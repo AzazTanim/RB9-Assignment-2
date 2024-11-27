@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar styles starts here */
+.navbar {
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  color: #e6533c;
+  font-size: 36px;
+  font-weight: 800;
+}
+.nav-links {
+  display: flex;
+  border: 1px solid rgba(255, 255, 255, 0.096);
+  border-radius: 20px;
+}
+.nav-item {
+  list-style: none;
+  margin-right: 20px;
+  padding: 5px 5px;
+}
+.nav-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+.home-btn {
+  background-color: #e6533c;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+/* navbar styles ends here */
+
+/* banner styles starts here */
+.banner-container {
+  background-color: black;
+}
+.banner {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content {
+  max-width: 50%;
+  border: 2px solid orangered;
+}
+.banner-content h1 {
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+  font-weight: 800;
+  margin: 0 0 20px;
+}
+.banner-content h1 .shape {
+  font-family: cursive;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 3rem;
+}
+.banner-content h1 .bold {
+  font-weight: bold;
+}
+.banner-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.banner-buttons {
+  display: flex;
+  gap: 1rem;
+}
+.btn-primary {
+  background-color: #e6533c;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  font-size: 1rem;
+}
+.btn-secondary {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 1px solid #ffffff;
+  font-size: 1rem;
+}
+
+.banner-image {
+  position: relative;
+}
+.banner-image img {
+  max-height: 400px;
+  /* border-radius: 10px; */
+}
+.badge {
+  position: absolute;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+}
+.badge span {
+  font-size: 1rem;
+  color: #ccc;
+}
+.top-badge {
+  top: 20%;
+  right: -45%;
+}
+.bottom-badge {
+  bottom: 10%;
+  left: -30%;
+}
+/* banner styles ends here */
