@@ -195,5 +195,48 @@
   font-size: 1rem;
   margin-top: 5px;
 }
-
 /* habit styles ends here */
+
+/* run section styles here */
+.run-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: rgb(34, 34, 34);
+  border-radius: 18px;
+  margin-top: 50px;
+}
+.run-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.run-content {
+  width: 45%;
+}
+.run-content h1 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+}
+.run-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  margin-top: 10px;
+}
+.run-btn {
+  background-color: #e6533c;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  margin-top: 15px;
+}
+
+.run-content img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* run section ends here */
